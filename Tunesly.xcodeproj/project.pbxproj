@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		7933486924A1948C00D8DE02 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933486824A1948C00D8DE02 /* HomeModel.swift */; };
 		7933486D24A19C8500D8DE02 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933486C24A19C8500D8DE02 /* Service.swift */; };
+		7933487524A221FA00D8DE02 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7933487424A221FA00D8DE02 /* WidgetKit.framework */; };
+		7933487724A221FA00D8DE02 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7933487624A221FA00D8DE02 /* SwiftUI.framework */; };
+		7933487A24A221FA00D8DE02 /* TuneslyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933487924A221FA00D8DE02 /* TuneslyWidget.swift */; };
+		7933487D24A221FC00D8DE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7933487C24A221FC00D8DE02 /* Assets.xcassets */; };
+		7933487F24A221FC00D8DE02 /* TuneslyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7933487B24A221FA00D8DE02 /* TuneslyWidget.intentdefinition */; };
+		7933488024A221FC00D8DE02 /* TuneslyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7933487B24A221FA00D8DE02 /* TuneslyWidget.intentdefinition */; };
+		7933488324A221FC00D8DE02 /* TuneslyWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7933487224A221FA00D8DE02 /* TuneslyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		79A0AFD124A17BD300B21F71 /* TuneslyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */; };
 		79A0AFD324A17BD300B21F71 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFD224A17BD300B21F71 /* HomeView.swift */; };
 		79A0AFD524A17BD400B21F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A0AFD424A17BD400B21F71 /* Assets.xcassets */; };
@@ -19,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7933488124A221FC00D8DE02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A0AFC524A17BD300B21F71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7933487124A221FA00D8DE02;
+			remoteInfo = TuneslyWidgetExtension;
+		};
 		79A0AFDF24A17BD400B21F71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 79A0AFC524A17BD300B21F71 /* Project object */;
@@ -35,10 +49,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7933488824A221FC00D8DE02 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7933488324A221FC00D8DE02 /* TuneslyWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7933486824A1948C00D8DE02 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		7933486A24A1970C00D8DE02 /* Tunesly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tunesly.entitlements; sourceTree = "<group>"; };
 		7933486C24A19C8500D8DE02 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7933487224A221FA00D8DE02 /* TuneslyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TuneslyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7933487424A221FA00D8DE02 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7933487624A221FA00D8DE02 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7933487924A221FA00D8DE02 /* TuneslyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneslyWidget.swift; sourceTree = "<group>"; };
+		7933487B24A221FA00D8DE02 /* TuneslyWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TuneslyWidget.intentdefinition; sourceTree = "<group>"; };
+		7933487C24A221FC00D8DE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7933487E24A221FC00D8DE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7933488424A221FC00D8DE02 /* TuneslyWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TuneslyWidgetExtension.entitlements; sourceTree = "<group>"; };
 		79A0AFCD24A17BD300B21F71 /* Tunesly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tunesly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneslyApp.swift; sourceTree = "<group>"; };
 		79A0AFD224A17BD300B21F71 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../HomeView.swift; sourceTree = "<group>"; };
@@ -55,6 +91,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7933486F24A221FA00D8DE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7933487724A221FA00D8DE02 /* SwiftUI.framework in Frameworks */,
+				7933487524A221FA00D8DE02 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79A0AFCA24A17BD300B21F71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,12 +148,35 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		7933487324A221FA00D8DE02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7933487424A221FA00D8DE02 /* WidgetKit.framework */,
+				7933487624A221FA00D8DE02 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7933487824A221FA00D8DE02 /* TuneslyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7933487924A221FA00D8DE02 /* TuneslyWidget.swift */,
+				7933487B24A221FA00D8DE02 /* TuneslyWidget.intentdefinition */,
+				7933487C24A221FC00D8DE02 /* Assets.xcassets */,
+				7933487E24A221FC00D8DE02 /* Info.plist */,
+			);
+			path = TuneslyWidget;
+			sourceTree = "<group>";
+		};
 		79A0AFC424A17BD300B21F71 = {
 			isa = PBXGroup;
 			children = (
+				7933488424A221FC00D8DE02 /* TuneslyWidgetExtension.entitlements */,
 				79A0AFCF24A17BD300B21F71 /* Tunesly */,
 				79A0AFE124A17BD400B21F71 /* TuneslyTests */,
 				79A0AFEC24A17BD400B21F71 /* TuneslyUITests */,
+				7933487824A221FA00D8DE02 /* TuneslyWidget */,
+				7933487324A221FA00D8DE02 /* Frameworks */,
 				79A0AFCE24A17BD300B21F71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,6 +187,7 @@
 				79A0AFCD24A17BD300B21F71 /* Tunesly.app */,
 				79A0AFDE24A17BD400B21F71 /* TuneslyTests.xctest */,
 				79A0AFE924A17BD400B21F71 /* TuneslyUITests.xctest */,
+				7933487224A221FA00D8DE02 /* TuneslyWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,6 +269,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7933487124A221FA00D8DE02 /* TuneslyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7933488524A221FC00D8DE02 /* Build configuration list for PBXNativeTarget "TuneslyWidgetExtension" */;
+			buildPhases = (
+				7933486E24A221FA00D8DE02 /* Sources */,
+				7933486F24A221FA00D8DE02 /* Frameworks */,
+				7933487024A221FA00D8DE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuneslyWidgetExtension;
+			productName = TuneslyWidgetExtension;
+			productReference = 7933487224A221FA00D8DE02 /* TuneslyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		79A0AFCC24A17BD300B21F71 /* Tunesly */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79A0AFF224A17BD400B21F71 /* Build configuration list for PBXNativeTarget "Tunesly" */;
@@ -207,10 +293,12 @@
 				79A0AFC924A17BD300B21F71 /* Sources */,
 				79A0AFCA24A17BD300B21F71 /* Frameworks */,
 				79A0AFCB24A17BD300B21F71 /* Resources */,
+				7933488824A221FC00D8DE02 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7933488224A221FC00D8DE02 /* PBXTargetDependency */,
 			);
 			name = Tunesly;
 			productName = Tunesly;
@@ -262,6 +350,9 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					7933487124A221FA00D8DE02 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					79A0AFCC24A17BD300B21F71 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -291,11 +382,20 @@
 				79A0AFCC24A17BD300B21F71 /* Tunesly */,
 				79A0AFDD24A17BD400B21F71 /* TuneslyTests */,
 				79A0AFE824A17BD400B21F71 /* TuneslyUITests */,
+				7933487124A221FA00D8DE02 /* TuneslyWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7933487024A221FA00D8DE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7933487D24A221FC00D8DE02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79A0AFCB24A17BD300B21F71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,11 +422,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7933486E24A221FA00D8DE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7933487A24A221FA00D8DE02 /* TuneslyWidget.swift in Sources */,
+				7933487F24A221FC00D8DE02 /* TuneslyWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79A0AFC924A17BD300B21F71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7933486924A1948C00D8DE02 /* HomeModel.swift in Sources */,
+				7933488024A221FC00D8DE02 /* TuneslyWidget.intentdefinition in Sources */,
 				79A0AFD324A17BD300B21F71 /* HomeView.swift in Sources */,
 				7933486D24A19C8500D8DE02 /* Service.swift in Sources */,
 				79A0AFD124A17BD300B21F71 /* TuneslyApp.swift in Sources */,
@@ -353,6 +463,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7933488224A221FC00D8DE02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7933487124A221FA00D8DE02 /* TuneslyWidgetExtension */;
+			targetProxy = 7933488124A221FC00D8DE02 /* PBXContainerItemProxy */;
+		};
 		79A0AFE024A17BD400B21F71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 79A0AFCC24A17BD300B21F71 /* Tunesly */;
@@ -366,6 +481,52 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		7933488624A221FC00D8DE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TuneslyWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QL296JN2WY;
+				INFOPLIST_FILE = TuneslyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Tunesly.TuneslyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7933488724A221FC00D8DE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TuneslyWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QL296JN2WY;
+				INFOPLIST_FILE = TuneslyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Tunesly.TuneslyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		79A0AFF024A17BD400B21F71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -485,6 +646,7 @@
 		79A0AFF324A17BD400B21F71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Tunesly/Tunesly.entitlements;
@@ -509,6 +671,7 @@
 		79A0AFF424A17BD400B21F71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Tunesly/Tunesly.entitlements;
@@ -613,6 +776,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7933488524A221FC00D8DE02 /* Build configuration list for PBXNativeTarget "TuneslyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7933488624A221FC00D8DE02 /* Debug */,
+				7933488724A221FC00D8DE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		79A0AFC824A17BD300B21F71 /* Build configuration list for PBXProject "Tunesly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
