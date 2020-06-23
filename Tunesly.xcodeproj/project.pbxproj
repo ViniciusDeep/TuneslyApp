@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A0AFD124A17BD300B21F71 /* TuneslyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */; };
+		79A0AFD324A17BD300B21F71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFD224A17BD300B21F71 /* ContentView.swift */; };
+		79A0AFD524A17BD400B21F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A0AFD424A17BD400B21F71 /* Assets.xcassets */; };
+		79A0AFD824A17BD400B21F71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A0AFD724A17BD400B21F71 /* Preview Assets.xcassets */; };
+		79A0AFE324A17BD400B21F71 /* TuneslyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFE224A17BD400B21F71 /* TuneslyTests.swift */; };
+		79A0AFEE24A17BD400B21F71 /* TuneslyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFED24A17BD400B21F71 /* TuneslyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79A0AFDF24A17BD400B21F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A0AFC524A17BD300B21F71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A0AFCC24A17BD300B21F71;
+			remoteInfo = Tunesly;
+		};
+		79A0AFEA24A17BD400B21F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A0AFC524A17BD300B21F71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A0AFCC24A17BD300B21F71;
+			remoteInfo = Tunesly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79A0AFCD24A17BD300B21F71 /* Tunesly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tunesly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneslyApp.swift; sourceTree = "<group>"; };
+		79A0AFD224A17BD300B21F71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79A0AFD424A17BD400B21F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A0AFD724A17BD400B21F71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79A0AFD924A17BD400B21F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A0AFDE24A17BD400B21F71 /* TuneslyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneslyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A0AFE224A17BD400B21F71 /* TuneslyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneslyTests.swift; sourceTree = "<group>"; };
+		79A0AFE424A17BD400B21F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A0AFE924A17BD400B21F71 /* TuneslyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneslyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A0AFED24A17BD400B21F71 /* TuneslyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneslyUITests.swift; sourceTree = "<group>"; };
+		79A0AFEF24A17BD400B21F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A0AFCA24A17BD300B21F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A0AFDB24A17BD400B21F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A0AFE624A17BD400B21F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A0AFC424A17BD300B21F71 = {
+			isa = PBXGroup;
+			children = (
+				79A0AFCF24A17BD300B21F71 /* Tunesly */,
+				79A0AFE124A17BD400B21F71 /* TuneslyTests */,
+				79A0AFEC24A17BD400B21F71 /* TuneslyUITests */,
+				79A0AFCE24A17BD300B21F71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A0AFCE24A17BD300B21F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A0AFCD24A17BD300B21F71 /* Tunesly.app */,
+				79A0AFDE24A17BD400B21F71 /* TuneslyTests.xctest */,
+				79A0AFE924A17BD400B21F71 /* TuneslyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A0AFCF24A17BD300B21F71 /* Tunesly */ = {
+			isa = PBXGroup;
+			children = (
+				79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */,
+				79A0AFD224A17BD300B21F71 /* ContentView.swift */,
+				79A0AFD424A17BD400B21F71 /* Assets.xcassets */,
+				79A0AFD924A17BD400B21F71 /* Info.plist */,
+				79A0AFD624A17BD400B21F71 /* Preview Content */,
+			);
+			path = Tunesly;
+			sourceTree = "<group>";
+		};
+		79A0AFD624A17BD400B21F71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79A0AFD724A17BD400B21F71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79A0AFE124A17BD400B21F71 /* TuneslyTests */ = {
+			isa = PBXGroup;
+			children = (
+				79A0AFE224A17BD400B21F71 /* TuneslyTests.swift */,
+				79A0AFE424A17BD400B21F71 /* Info.plist */,
+			);
+			path = TuneslyTests;
+			sourceTree = "<group>";
+		};
+		79A0AFEC24A17BD400B21F71 /* TuneslyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79A0AFED24A17BD400B21F71 /* TuneslyUITests.swift */,
+				79A0AFEF24A17BD400B21F71 /* Info.plist */,
+			);
+			path = TuneslyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A0AFCC24A17BD300B21F71 /* Tunesly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A0AFF224A17BD400B21F71 /* Build configuration list for PBXNativeTarget "Tunesly" */;
+			buildPhases = (
+				79A0AFC924A17BD300B21F71 /* Sources */,
+				79A0AFCA24A17BD300B21F71 /* Frameworks */,
+				79A0AFCB24A17BD300B21F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tunesly;
+			productName = Tunesly;
+			productReference = 79A0AFCD24A17BD300B21F71 /* Tunesly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79A0AFDD24A17BD400B21F71 /* TuneslyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A0AFF524A17BD400B21F71 /* Build configuration list for PBXNativeTarget "TuneslyTests" */;
+			buildPhases = (
+				79A0AFDA24A17BD400B21F71 /* Sources */,
+				79A0AFDB24A17BD400B21F71 /* Frameworks */,
+				79A0AFDC24A17BD400B21F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A0AFE024A17BD400B21F71 /* PBXTargetDependency */,
+			);
+			name = TuneslyTests;
+			productName = TuneslyTests;
+			productReference = 79A0AFDE24A17BD400B21F71 /* TuneslyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A0AFE824A17BD400B21F71 /* TuneslyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A0AFF824A17BD400B21F71 /* Build configuration list for PBXNativeTarget "TuneslyUITests" */;
+			buildPhases = (
+				79A0AFE524A17BD400B21F71 /* Sources */,
+				79A0AFE624A17BD400B21F71 /* Frameworks */,
+				79A0AFE724A17BD400B21F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A0AFEB24A17BD400B21F71 /* PBXTargetDependency */,
+			);
+			name = TuneslyUITests;
+			productName = TuneslyUITests;
+			productReference = 79A0AFE924A17BD400B21F71 /* TuneslyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A0AFC524A17BD300B21F71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					79A0AFCC24A17BD300B21F71 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					79A0AFDD24A17BD400B21F71 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 79A0AFCC24A17BD300B21F71;
+					};
+					79A0AFE824A17BD400B21F71 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 79A0AFCC24A17BD300B21F71;
+					};
+				};
+			};
+			buildConfigurationList = 79A0AFC824A17BD300B21F71 /* Build configuration list for PBXProject "Tunesly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A0AFC424A17BD300B21F71;
+			productRefGroup = 79A0AFCE24A17BD300B21F71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A0AFCC24A17BD300B21F71 /* Tunesly */,
+				79A0AFDD24A17BD400B21F71 /* TuneslyTests */,
+				79A0AFE824A17BD400B21F71 /* TuneslyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A0AFCB24A17BD300B21F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A0AFD824A17BD400B21F71 /* Preview Assets.xcassets in Resources */,
+				79A0AFD524A17BD400B21F71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A0AFDC24A17BD400B21F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A0AFE724A17BD400B21F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A0AFC924A17BD300B21F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A0AFD324A17BD300B21F71 /* ContentView.swift in Sources */,
+				79A0AFD124A17BD300B21F71 /* TuneslyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A0AFDA24A17BD400B21F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A0AFE324A17BD400B21F71 /* TuneslyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A0AFE524A17BD400B21F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A0AFEE24A17BD400B21F71 /* TuneslyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79A0AFE024A17BD400B21F71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A0AFCC24A17BD300B21F71 /* Tunesly */;
+			targetProxy = 79A0AFDF24A17BD400B21F71 /* PBXContainerItemProxy */;
+		};
+		79A0AFEB24A17BD400B21F71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A0AFCC24A17BD300B21F71 /* Tunesly */;
+			targetProxy = 79A0AFEA24A17BD400B21F71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79A0AFF024A17BD400B21F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79A0AFF124A17BD400B21F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A0AFF324A17BD400B21F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tunesly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tunesly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Tunesly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79A0AFF424A17BD400B21F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tunesly/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tunesly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Tunesly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79A0AFF624A17BD400B21F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TuneslyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.TuneslyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tunesly.app/Tunesly";
+			};
+			name = Debug;
+		};
+		79A0AFF724A17BD400B21F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TuneslyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.TuneslyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tunesly.app/Tunesly";
+			};
+			name = Release;
+		};
+		79A0AFF924A17BD400B21F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TuneslyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.TuneslyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tunesly;
+			};
+			name = Debug;
+		};
+		79A0AFFA24A17BD400B21F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TuneslyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.TuneslyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tunesly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A0AFC824A17BD300B21F71 /* Build configuration list for PBXProject "Tunesly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A0AFF024A17BD400B21F71 /* Debug */,
+				79A0AFF124A17BD400B21F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A0AFF224A17BD400B21F71 /* Build configuration list for PBXNativeTarget "Tunesly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A0AFF324A17BD400B21F71 /* Debug */,
+				79A0AFF424A17BD400B21F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A0AFF524A17BD400B21F71 /* Build configuration list for PBXNativeTarget "TuneslyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A0AFF624A17BD400B21F71 /* Debug */,
+				79A0AFF724A17BD400B21F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A0AFF824A17BD400B21F71 /* Build configuration list for PBXNativeTarget "TuneslyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A0AFF924A17BD400B21F71 /* Debug */,
+				79A0AFFA24A17BD400B21F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79A0AFC524A17BD300B21F71 /* Project object */;
+}
