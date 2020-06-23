@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7933486924A1948C00D8DE02 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933486824A1948C00D8DE02 /* HomeModel.swift */; };
+		7933486D24A19C8500D8DE02 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933486C24A19C8500D8DE02 /* Service.swift */; };
 		79A0AFD124A17BD300B21F71 /* TuneslyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */; };
 		79A0AFD324A17BD300B21F71 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFD224A17BD300B21F71 /* HomeView.swift */; };
 		79A0AFD524A17BD400B21F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A0AFD424A17BD400B21F71 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		7933486824A1948C00D8DE02 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		7933486A24A1970C00D8DE02 /* Tunesly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tunesly.entitlements; sourceTree = "<group>"; };
+		7933486C24A19C8500D8DE02 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		79A0AFCD24A17BD300B21F71 /* Tunesly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tunesly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneslyApp.swift; sourceTree = "<group>"; };
 		79A0AFD224A17BD300B21F71 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../HomeView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		7933486B24A19C6C00D8DE02 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7933486C24A19C8500D8DE02 /* Service.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		79A0AFC424A17BD300B21F71 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				7933486A24A1970C00D8DE02 /* Tunesly.entitlements */,
+				7933486B24A19C6C00D8DE02 /* Common */,
 				79A0AFFB24A192D400B21F71 /* Scene */,
 				79A0AFD424A17BD400B21F71 /* Assets.xcassets */,
 				79A0AFD924A17BD400B21F71 /* Info.plist */,
@@ -317,6 +328,7 @@
 			files = (
 				7933486924A1948C00D8DE02 /* HomeModel.swift in Sources */,
 				79A0AFD324A17BD300B21F71 /* HomeView.swift in Sources */,
+				7933486D24A19C8500D8DE02 /* Service.swift in Sources */,
 				79A0AFD124A17BD300B21F71 /* TuneslyApp.swift in Sources */,
 				79A0B00024A1931800B21F71 /* OnboardView.swift in Sources */,
 			);
