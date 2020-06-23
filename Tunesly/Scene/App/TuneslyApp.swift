@@ -11,13 +11,17 @@ import SwiftUI
 struct TuneslyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if UserDefaults.standard.value(forKey: "isLogged") as? Bool ?? true {
+                HomeView()
+            } else {
+                OnboardView()
+            }
         }
     }
 }
 
 struct TuneslyApp_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }

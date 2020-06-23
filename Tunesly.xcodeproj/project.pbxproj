@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7933486924A1948C00D8DE02 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933486824A1948C00D8DE02 /* HomeModel.swift */; };
 		79A0AFD124A17BD300B21F71 /* TuneslyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */; };
-		79A0AFD324A17BD300B21F71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFD224A17BD300B21F71 /* ContentView.swift */; };
+		79A0AFD324A17BD300B21F71 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFD224A17BD300B21F71 /* HomeView.swift */; };
 		79A0AFD524A17BD400B21F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A0AFD424A17BD400B21F71 /* Assets.xcassets */; };
 		79A0AFD824A17BD400B21F71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A0AFD724A17BD400B21F71 /* Preview Assets.xcassets */; };
 		79A0AFE324A17BD400B21F71 /* TuneslyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFE224A17BD400B21F71 /* TuneslyTests.swift */; };
 		79A0AFEE24A17BD400B21F71 /* TuneslyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFED24A17BD400B21F71 /* TuneslyUITests.swift */; };
+		79A0B00024A1931800B21F71 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFFF24A1931800B21F71 /* OnboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7933486824A1948C00D8DE02 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		7933486A24A1970C00D8DE02 /* Tunesly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tunesly.entitlements; sourceTree = "<group>"; };
 		79A0AFCD24A17BD300B21F71 /* Tunesly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tunesly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneslyApp.swift; sourceTree = "<group>"; };
-		79A0AFD224A17BD300B21F71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79A0AFD224A17BD300B21F71 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../HomeView.swift; sourceTree = "<group>"; };
 		79A0AFD424A17BD400B21F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79A0AFD724A17BD400B21F71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79A0AFD924A17BD400B21F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 		79A0AFE924A17BD400B21F71 /* TuneslyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneslyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A0AFED24A17BD400B21F71 /* TuneslyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneslyUITests.swift; sourceTree = "<group>"; };
 		79A0AFEF24A17BD400B21F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A0AFFF24A1931800B21F71 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +77,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7933486624A1947100D8DE02 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7933486824A1948C00D8DE02 /* HomeModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7933486724A1947400D8DE02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79A0AFD224A17BD300B21F71 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		79A0AFC424A17BD300B21F71 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +116,8 @@
 		79A0AFCF24A17BD300B21F71 /* Tunesly */ = {
 			isa = PBXGroup;
 			children = (
-				79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */,
-				79A0AFD224A17BD300B21F71 /* ContentView.swift */,
+				7933486A24A1970C00D8DE02 /* Tunesly.entitlements */,
+				79A0AFFB24A192D400B21F71 /* Scene */,
 				79A0AFD424A17BD400B21F71 /* Assets.xcassets */,
 				79A0AFD924A17BD400B21F71 /* Info.plist */,
 				79A0AFD624A17BD400B21F71 /* Preview Content */,
@@ -128,6 +149,41 @@
 				79A0AFEF24A17BD400B21F71 /* Info.plist */,
 			);
 			path = TuneslyUITests;
+			sourceTree = "<group>";
+		};
+		79A0AFFB24A192D400B21F71 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				79A0B00124A1934300B21F71 /* App */,
+				79A0AFFE24A1930800B21F71 /* Onboard */,
+				79A0AFFD24A192DD00B21F71 /* Home */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		79A0AFFD24A192DD00B21F71 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7933486724A1947400D8DE02 /* View */,
+				7933486624A1947100D8DE02 /* Data */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		79A0AFFE24A1930800B21F71 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				79A0AFFF24A1931800B21F71 /* OnboardView.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		79A0B00124A1934300B21F71 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +315,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A0AFD324A17BD300B21F71 /* ContentView.swift in Sources */,
+				7933486924A1948C00D8DE02 /* HomeModel.swift in Sources */,
+				79A0AFD324A17BD300B21F71 /* HomeView.swift in Sources */,
 				79A0AFD124A17BD300B21F71 /* TuneslyApp.swift in Sources */,
+				79A0B00024A1931800B21F71 /* OnboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +475,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tunesly/Tunesly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Tunesly/Preview Content\"";
+				DEVELOPMENT_TEAM = QL296JN2WY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Tunesly/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -428,8 +488,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Tunesly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -438,8 +499,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tunesly/Tunesly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Tunesly/Preview Content\"";
+				DEVELOPMENT_TEAM = QL296JN2WY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Tunesly/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -449,8 +512,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.academy.Tunesly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
