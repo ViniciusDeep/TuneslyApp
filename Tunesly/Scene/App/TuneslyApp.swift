@@ -9,13 +9,24 @@ import SwiftUI
 
 @main
 struct TuneslyApp: App {
+    
+    @State private var recomendationArtist = Artist(name: "Jack Daniels")
+    
     var body: some Scene {
         WindowGroup {
+            #if APPCLIP
+            NavigationView {
+                SmothClipView()
+            }
+            .environmentObject(recomendationArtist)
+            .onContinueUserActivity(NSUserActivityTypeBrowsingWeb, perform: handleUserActivity)
+            #else
             if UserDefaults.standard.value(forKey: "isLogged") as? Bool ?? true {
                 HomeView()
             } else {
                 OnboardView()
             }
+            #endif
         }
     }
 }

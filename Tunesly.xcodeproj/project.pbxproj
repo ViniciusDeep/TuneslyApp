@@ -23,6 +23,7 @@
 		79A0AFE324A17BD400B21F71 /* TuneslyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFE224A17BD400B21F71 /* TuneslyTests.swift */; };
 		79A0AFEE24A17BD400B21F71 /* TuneslyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFED24A17BD400B21F71 /* TuneslyUITests.swift */; };
 		79A0B00024A1931800B21F71 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0AFFF24A1931800B21F71 /* OnboardView.swift */; };
+		79A8D30024A229940036057B /* SmothClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A8D2FF24A229940036057B /* SmothClipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		79A0AFED24A17BD400B21F71 /* TuneslyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneslyUITests.swift; sourceTree = "<group>"; };
 		79A0AFEF24A17BD400B21F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A0AFFF24A1931800B21F71 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		79A8D2FF24A229940036057B /* SmothClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmothClipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 		79A0AFFB24A192D400B21F71 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				79A8D2FE24A2297D0036057B /* AppClip */,
 				79A0B00124A1934300B21F71 /* App */,
 				79A0AFFE24A1930800B21F71 /* Onboard */,
 				79A0AFFD24A192DD00B21F71 /* Home */,
@@ -264,6 +267,14 @@
 				79A0AFD024A17BD300B21F71 /* TuneslyApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		79A8D2FE24A2297D0036057B /* AppClip */ = {
+			isa = PBXGroup;
+			children = (
+				79A8D2FF24A229940036057B /* SmothClipView.swift */,
+			);
+			path = AppClip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,6 +449,7 @@
 				7933486924A1948C00D8DE02 /* HomeModel.swift in Sources */,
 				7933488024A221FC00D8DE02 /* TuneslyWidget.intentdefinition in Sources */,
 				79A0AFD324A17BD300B21F71 /* HomeView.swift in Sources */,
+				79A8D30024A229940036057B /* SmothClipView.swift in Sources */,
 				7933486D24A19C8500D8DE02 /* Service.swift in Sources */,
 				79A0AFD124A17BD300B21F71 /* TuneslyApp.swift in Sources */,
 				79A0B00024A1931800B21F71 /* OnboardView.swift in Sources */,

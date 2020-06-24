@@ -13,3 +13,7 @@ struct Section: Identifiable {
     
     @State static var defaultSections = [Section(name: "Albums"), Section(name: "Artist"), Section(name: "Playlist"), Section(name: "Songs")]
 }
+
+struct Artist: Decodable {
+    let name: String    
+}
