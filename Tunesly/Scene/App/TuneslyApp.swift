@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct TuneslyApp: App {
     
-    @State private var recomendationArtist = Artist(name: "Jack Daniels")
+    @State private var recomendationArtist = Feed(title: "", id: "", results: [])
     
     var body: some Scene {
         WindowGroup {

@@ -8,17 +8,17 @@
 import Combine
 import SwiftUI
 
-class Service<T: Decodable> {
+class AppStoreService: ObservableObject {
     
-    var didChange = PassthroughSubject<Service, Error>()
+    var didChange = PassthroughSubject<AppStoreService, Error>()
     
-    var element: T? {
+    @Published var appStore = AppStore() {
         didSet {
             didChange.send(self)
         }
     }
     
-    func get(point: PointRouter) {
+    func loadData(point: PointRouter) {
         guard let url = point.pointedURL else {return}
                 
         URLSession.shared.dataTask(with: url) { (data, _, error) in
@@ -27,9 +27,9 @@ class Service<T: Decodable> {
                 self.didChange.send(completion: Subscribers.Completion<Error>.failure(error))
             }
             do {
-                let element = try JSONDecoder().decode(T.self, from: data)
+                let appStore = try JSONDecoder().decode(AppStore.self, from: data)
                 DispatchQueue.main.async {
-                    self.element = element
+                    self.appStore = appStore
                 }
             } catch let error {
                 self.didChange.send(completion: Subscribers.Completion<Error>.failure(error))
@@ -39,20 +39,14 @@ class Service<T: Decodable> {
 }
 
 enum PointRouter {
-    case artist
-    case music
-    case genre
+    case comingSoon(count: Int)
     
-    var baseUrl: String {""}
+    var baseUrl: String {"https://rss.itunes.apple.com/api/v1/us/apple-music/"}
     
     var pointedURL: URL? {
         switch self {
-        case .artist:
-            return URL(string: baseUrl + "")
-        case .genre:
-            return URL(string: baseUrl + "")
-        case .music:
-            return URL(string: baseUrl + "")
+        case .comingSoon(let count):
+            return URL(string: baseUrl + "coming-soon/all/\(count)/explicit.json")
         }
     }
 }

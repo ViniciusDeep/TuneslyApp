@@ -6,15 +6,33 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct HomeView: View {
+    
+    @State var service = AppStoreService()
+    
     var body: some View {
-        NavigationView {
-            List(Section.defaultSections) { section in
-                Text(section.name).foregroundColor(.pink).font(.system(size: 20, design: .serif))
-            }.navigationBarTitle("Library", displayMode: .automatic)
-        }
-    }
+       NavigationView {
+        ScrollView {
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))],spacing: 20) {
+                ForEach(service.appStore.feed.results) { result in
+                    VStack {
+                        WebImage(url: URL(string: result.name))
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                            .clipped()
+                            .cornerRadius(8)
+                        Text(result.name)
+                            .font(.caption)
+                    }
+                }.onAppear {
+                    service.loadData(point: .comingSoon(count: 10))
+                }
+           }.padding()
+        }.navigationBarTitle("Library", displayMode: .automatic)
+      }
+   }
 }
 
 struct HomeView_Previews: PreviewProvider {
