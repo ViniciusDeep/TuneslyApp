@@ -7,10 +7,11 @@
 
 import SwiftUI
 import SDWebImageSwiftUI
+import WPImageKit
 
 struct HomeView: View {
     
-    @State var service = AppStoreService()
+    @ObservedObject var service = AppStoreService()
     
     var body: some View {
        NavigationView {
@@ -18,7 +19,7 @@ struct HomeView: View {
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))],spacing: 20) {
                 ForEach(service.appStore.feed.results) { result in
                     VStack {
-                        WebImage(url: URL(string: result.name))
+                        WebImage(url: URL(string: result.artworkUrl100))
                             .resizable()
                             .frame(width: 100, height: 100)
                             .clipped()
@@ -26,8 +27,6 @@ struct HomeView: View {
                         Text(result.name)
                             .font(.caption)
                     }
-                }.onAppear {
-                    service.loadData(point: .comingSoon(count: 10))
                 }
            }.padding()
         }.navigationBarTitle("Library", displayMode: .automatic)

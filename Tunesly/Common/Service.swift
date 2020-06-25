@@ -18,6 +18,10 @@ class AppStoreService: ObservableObject {
         }
     }
     
+    init() {
+        loadData(point: .comingSoon(count: 10))
+    }
+    
     func loadData(point: PointRouter) {
         guard let url = point.pointedURL else {return}
                 
