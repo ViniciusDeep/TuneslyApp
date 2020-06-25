@@ -18,8 +18,8 @@ class AppStoreService: ObservableObject {
         }
     }
     
-    init() {
-        loadData(point: .comingSoon(count: 10))
+    init(_ point: PointRouter) {
+        loadData(point: point)
     }
     
     func loadData(point: PointRouter) {

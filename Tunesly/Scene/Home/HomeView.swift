@@ -7,11 +7,10 @@
 
 import SwiftUI
 import SDWebImageSwiftUI
-import WPImageKit
 
 struct HomeView: View {
     
-    @ObservedObject var service = AppStoreService()
+    @ObservedObject var service = AppStoreService(.comingSoon(count: 10))
     
     var body: some View {
        NavigationView {
@@ -25,7 +24,8 @@ struct HomeView: View {
                             .clipped()
                             .cornerRadius(8)
                         Text(result.name)
-                            .font(.caption)
+                            .font(.caption2)
+                        
                     }
                 }
            }.padding()
